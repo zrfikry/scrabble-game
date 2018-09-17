@@ -36,8 +36,8 @@ button.box:disabled {
 button.box span.point {
   font-size: 10px;
   position: absolute;
-  bottom: 3px;
-  right: 3px;
+  bottom: 1px;
+  right: 1px;
 }
 
 button.box span.coordinate.top {
@@ -61,8 +61,8 @@ button.card {
 button.card span {
   font-size: 10px;
   position: absolute;
-  bottom: 3px;
-  right: 3px;
+  bottom: 1px;
+  right: 1px;
 }
 
 button.card.selected {
