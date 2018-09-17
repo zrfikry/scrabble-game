@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Scrabble</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <section class="playerbox">
+    <h1 id="turn">Player 1</h1>
+    <div id="player1"></div>
+    <div id="player2"></div>
+    
+    <div class="buttons">
+      <button id="endturn" onclick="endTurn()">End Turn</button>
+      <button id="reset" onclick="resetAssign()">Reset</button>
+    </div>
+
+    <h2>Scoreboard</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Player 1</th>
+          <th>Player 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="player1score">0</td>
+          <td id="player2score">0</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </section>
+  <section>
+    <div id="board"></div>
+  </section>
+</body>
+</html>

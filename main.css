@@ -1,0 +1,79 @@
+section {
+  margin: 20px;
+  display: inline-flex;
+}
+
+section.playerbox {
+  flex-direction: column;
+  width: 350px;
+}
+
+.buttons {
+  margin: 15px 0;
+}
+
+#board {
+  width: 640px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+button.box {
+  width: 40px;
+  height: 40px;
+  background: #eee;
+  border: 1px solid red;
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+}
+
+button.box:disabled {
+  background: rgba(0, 0, 0, .2);
+  color: #000;
+}
+
+button.box span.point {
+  font-size: 10px;
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+}
+
+button.box span.coordinate.top {
+  position: relative;
+  top: -40px;
+}
+
+button.box span.coordinate.left {
+  position: relative;
+  left: -40px;
+}
+
+button.card {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+}
+
+button.card span {
+  font-size: 10px;
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+}
+
+button.card.selected {
+  background: green;
+}
+
+table {
+  border: 1px solid #eee;
+}
+
+table td {
+  text-align: center;
+  padding: 5px 0;
+}
